@@ -97,7 +97,7 @@ const Body = () => {
 
   return (
     <div className="margenSup">
-      <Card>
+      <Card className="shadow">
         <Card.Header>
           {isIssLocationLoaded ? (
             <>
