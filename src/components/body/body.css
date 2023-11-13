@@ -1,3 +1,7 @@
 .margenSup {
   margin-top: 80px;
 }
+
+.map-card-body {
+  height: 430px;
+}

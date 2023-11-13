@@ -102,11 +102,11 @@ const Body = () => {
           {isIssLocationLoaded ? (
             <>
               <div>
-                <span>Volando a 7.66 km/s y una Altura de 408 Km</span>
+                <span>Volando a 7.66 km/s y una Altura de 408 Km sobre:</span>
               </div>
               {locationInfo.continent === "Océano" ? (
                 <div>
-                  <span>Sobre el Océano</span>
+                  <span>El Océano</span>
                 </div>
               ) : (
                 <>
@@ -137,7 +137,7 @@ const Body = () => {
             "Cargando..."
           )}
         </Card.Header>
-        <Card.Body>
+        <Card.Body className="map-card-body d-flex align-items-center justify-content-center">
           {isLoading ? (
             <Spinner animation="border" role="status">
               <span className="visually-hidden">Cargando...</span>
